@@ -99,6 +99,6 @@ To utilise Ascii-Art-Web, follow the below instructions:
 
 ### Authors
 
-George Saad
-Jordan Smith
-Mikal Laane
+- George Saad
+- Jordan Smith
+- Mikal Laane
