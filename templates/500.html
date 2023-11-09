@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{.StatusCode}} - Internal Server Error</title>
+    <link rel="shortcut icon" type="image/jpg" href="/static/images/favicon.png">
+    <link rel="stylesheet" href="/static/css/style.css"> 
+</head>
+
+<body>
+    <a href="/">
+        <h1>Ascii Art Creator</h1>
+    </a>
+    <form>
+        <div id="error3">
+            <h2>{{.StatusCode}} - Internal Server Error</h2>
+            <p>Something went wrong on our end. Please try again later.</p>
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{.StatusCode}} - Bad Request</title>
+    <link rel="shortcut icon" type="image/jpg" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="/static/css/style.css"> 
+</head>
+
+<body>
+    <a href="/">
+        <h1>Ascii Art Creator</h1>
+    </a>
+<form>
+    <div id="error3">
+        <h2>{{.StatusCode}} - Bad Request</h2>
+        <p>The server could not understand your request. Please check your input and try again.</p>
+    </div>
+</form>
+
+</body>
+
+</html>
